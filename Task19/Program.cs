@@ -8,7 +8,7 @@ while (number.Length != 5)
     number = Console.ReadLine()!;
 }
 
-if (number[0] == number[4] || number[1] == number[3])
+if (number[0] == number[4] && number[1] == number[3])
     Console.WriteLine("Число является палиндромом");
 else
     Console.WriteLine("Число не является палиндромом");
